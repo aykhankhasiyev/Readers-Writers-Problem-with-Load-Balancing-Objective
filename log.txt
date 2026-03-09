@@ -1,0 +1,12 @@
+Reader 1 reading File 0 | Readers: [1, 0, 0] | Writer active: false | Content: Initial content
+Reader 2 reading File 0 | Readers: [1, 0, 0] | Writer active: false | Content: Initial content
+Reader 3 reading File 0 | Readers: [1, 0, 0] | Writer active: false | Content: Initial content
+Writer updated files | Readers: [0, 0, 0] | Writer active: true | New Content: Updated version 1
+Writer updated files | Readers: [0, 0, 0] | Writer active: true | New Content: Updated version 2
+Reader 4 reading File 0 | Readers: [1, 0, 0] | Writer active: false | Content: Updated version 2
+Reader 5 reading File 0 | Readers: [1, 0, 0] | Writer active: false | Content: Updated version 2
+Reader 6 reading File 0 | Readers: [1, 0, 0] | Writer active: false | Content: Updated version 2
+Writer updated files | Readers: [0, 0, 0] | Writer active: true | New Content: Updated version 3
+Reader 7 reading File 0 | Readers: [1, 0, 0] | Writer active: false | Content: Updated version 3
+Writer updated files | Readers: [0, 0, 0] | Writer active: true | New Content: Updated version 4
+Reader 8 reading File 0 | Readers: [1, 0, 0] | Writer active: false | Content: Updated version 4
